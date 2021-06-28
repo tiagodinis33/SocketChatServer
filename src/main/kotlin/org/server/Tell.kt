@@ -15,7 +15,7 @@ class Tell: ICommand {
                 client.tellTo(cclient, args.subList(1,args.size).joinToString(" "))
                 break
             }else if (client.clientName == args[0]){
-                client.sendMessage("Você deve ser demente, está falando com você proprio, tente achar um especialista para tratar do caso!")
+                client.sendMessage("Você deve ser solitario, está falando com você proprio, tente achar um especialista para tratar do caso!")
             }
         }
     }
